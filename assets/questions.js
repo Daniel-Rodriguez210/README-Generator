@@ -4,6 +4,12 @@ function askQuestions() {
         return inquirer.prompt([
             {
                 type: "input",
+                name: "name",
+                message: "What is the name of your project?"
+
+            },
+            {
+                type: "input",
                 name: "motivation",
                 message: "What was your motivation?"
 
