@@ -1,4 +1,4 @@
-const inquirer = require(inquirer);
+const inquirer = require("inquirer");
 
 function askQuestions() {
         return inquirer.prompt([
