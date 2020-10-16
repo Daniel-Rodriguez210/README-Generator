@@ -1,4 +1,4 @@
-const inquirer = require(inquirerer);
+const inquirer = require(inquirer);
 
 function askQuestions() {
         return inquirer.prompt([
@@ -56,10 +56,12 @@ function askQuestions() {
                 message: "Where is your license?"
 
             }, 
-        ]) 
+        ]); 
     }
 
 
 module.exports = {
     askQuestions
 }
+
+askQuestions().then(response => console.log(response))
